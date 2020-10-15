@@ -10,10 +10,8 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 """
 
-jorges_test = "This\f is a form feed"
 
 puts tabby_cat
 puts persian_cat
 puts backslash_cat
 puts fat_cat
-puts jorges_test
