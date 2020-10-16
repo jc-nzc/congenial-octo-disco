@@ -8,9 +8,9 @@ puts "Do you like me #{user_name}? "
 puts prompt
 likes = $stdin.gets.chomp
 
-puts "Where do you live #{user_name}"
+puts "Where do you live #{user_name}? "
 puts prompt
-lives = $stdin.get.chomp
+lives = $stdin.gets.chomp
 
 # a comma for puts is like using it twice
 puts "What kind of computer do you have? ", prompt
