@@ -15,7 +15,7 @@ end
 
 def divide(a, b)
   puts "DIVIDING #{a} / #{b}"
-  returns a / b
+  return a / b
 end
 
 
