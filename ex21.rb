@@ -1,5 +1,5 @@
 def add(a, b)
-  puts "Adding #{a} + #{b}"
+  puts "ADDING #{a} + #{b}"
   return a + b
 end
 
@@ -31,6 +31,6 @@ puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
 # A puzzle for the extra credit
 puts "Here is a puzzle."
 
-what = add(age, subtract(height, multiply(weight, divide(eq, 2))))
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
-puts "That becomes: #{what}. Can you do it by hande?"
+puts "That becomes: #{what}. Can you do it by hand?"
