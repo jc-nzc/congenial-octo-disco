@@ -17,3 +17,5 @@
 # ARGV get argument variable from command line
 # gets.chomp from user input while the program is running
 # $stdin.gets.chomp when you're utilizing ARGV and inputs
+
+# open(to_file, 'w') writer, reader files
