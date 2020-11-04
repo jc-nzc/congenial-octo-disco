@@ -1,3 +1,4 @@
+module Ex25
 
   # This function will break up words for us.
   def Ex25.break_words(stuff)
