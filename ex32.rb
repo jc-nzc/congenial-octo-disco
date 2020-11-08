@@ -15,11 +15,11 @@ fruits.each do |fruit|
 end
 
 # or
-change.each {|i| puts "#{i}" }
+change.each {|i| puts "I got #{i}" }
 
 # also build lists with an empty array
-elemenets = []
-(0..5)
+elements = []
+(0..5).each do |i|
   puts "adding #{i} to the list."
   elements.push(i)
 end
