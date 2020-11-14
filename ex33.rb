@@ -3,8 +3,7 @@ numbers = []
 
 
 # Function Example
-def custom_fun(cheese_count, boxes_of_crackers)
-  puts "You have #{cheese_count} cheeses!" #< - edit
+def custom_func(cheese_count, boxes_of_crackers)
   while i < 6
     puts "At the top i is #{i}"
     numbers.push(i)
