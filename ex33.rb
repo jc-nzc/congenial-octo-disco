@@ -2,17 +2,27 @@
 # Use this function to rewrite the script to try different numbers.
 def func_test(i)
   numbers = []
-  while i < 6
-    puts "At the top i is #{i}"
+  while i > 0
+    puts "Player one is on the move.."
+    puts "PlayerOne is now #{i} weeks away from the castle"
     numbers.push(i)
-    #
-    i += 1
+    puts "+++"
+
+    i -= 1
     # puts "Numbers now: ", numbers
     # puts "At the bottom i is #{i}"
+    if i == 0
+      puts "Yay, you've arrived game over"
+    else
+      puts "PlayerOne will now recharge, and move on the next sunrise"
+      puts "the trek continues..entering rest mode"
+      puts " "
+    end
+  sleep(3)
   end
 end
 
-func_test(-15)
+func_test(5)
 
 # puts "The numbers: "
 #
