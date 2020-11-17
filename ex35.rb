@@ -1,9 +1,11 @@
 def gold_room
-  puts "This room is full of gold. How much do you take?"
+  puts "This room is full of gold.  How much do you take?"
+
   print "> "
   choice = $stdin.gets.chomp
 
   # this line has a bug, so fix it
+  puts choice.class
   if choice.include?("0") || choice.include?("1")
     how_much = choice.to_i
   else
@@ -15,9 +17,10 @@ def gold_room
     exit(0)
   else
     dead("You greedy bastard!")
-    exit(0)
+
   end
 end
+
 
 def bear_room
   puts "There is a bear here."
