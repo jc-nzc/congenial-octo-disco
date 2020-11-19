@@ -6,8 +6,10 @@ def gold_room
 
   # this line has a bug, so fix it
   puts choice.class
-  if choice.include?("0") || choice.include?("1")
+  # if choice.include?("0") || choice.include?("1")
+  if (choice =~ /[0-9]/) != nil
     how_much = choice.to_i
+    puts how_much.class
   else
     dead("Man, learn to type a number.")
   end
