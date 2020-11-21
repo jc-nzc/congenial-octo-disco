@@ -13,3 +13,13 @@ while stuff.length != 10
   stuff.push(next_one)
   puts "There are #{stuff.length} items now."
 end
+
+puts "There we go: #{stuff}"
+
+puts "Let's do some things with stuff."
+
+puts stuff[1]
+puts stuff[-1] # whoa! fancy
+puts stuff.pop()
+puts stuff.join(' ')
+puts stuff[3..5].join("#")
