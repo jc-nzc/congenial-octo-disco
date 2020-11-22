@@ -22,4 +22,4 @@ puts stuff[1]
 puts stuff[-1] # whoa! fancy
 puts stuff.pop()
 puts stuff.join(' ')
-puts stuff[3..5].join("#")
+puts stuff[3..5].join(": @ !")
