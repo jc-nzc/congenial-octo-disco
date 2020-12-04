@@ -67,7 +67,7 @@ class CentralCorridor < Scene
       return 'death'
 
     elsif action == "duck!"
-      puts "Like a world class boxer you dip/dodge/dive/duck, weave, slip and slide right"
+      puts "Like a world class boxer you dip, dodge, dive, duck, weave, slip and slide right"
       puts "as the Gothon's blaster cranks a laser past your head."
       puts "In the middle of your artful duck your foot slips and you"
       puts "bang your head on the metal wall and pass out."
