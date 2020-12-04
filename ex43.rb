@@ -66,10 +66,10 @@ class CentralCorridor < Scene
       puts "you are dead.  Then he eats you."
       return 'death'
 
-    elsif action == "dodge!"
-      puts "Like a world class boxer you dodge, weave, slip and slide right"
+    elsif action == "duck!"
+      puts "Like a world class boxer you dip/dodge/dive/duck, weave, slip and slide right"
       puts "as the Gothon's blaster cranks a laser past your head."
-      puts "In the middle of your artful dodge your foot slips and you"
+      puts "In the middle of your artful duck your foot slips and you"
       puts "bang your head on the metal wall and pass out."
       puts "You wake up shortly after only to die as the Gothon stomps on"
       puts "your head and eats you."
