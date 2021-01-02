@@ -42,3 +42,4 @@ class EndlessForrestRoom
 end
 
 start_instance.run()
+puts "finished"
