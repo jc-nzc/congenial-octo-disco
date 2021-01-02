@@ -8,8 +8,8 @@
 # Your runner will need to know about these rooms, so make a class that runs them and knows about them. There's plenty of ways to do this, but consider having each room return what room is next or setting a variable of what room is next.
 # Other than that I leave it to you. Spend a whole week on this and make it the best game you can. Use classes, functions, dicts, arrays, anything you can to make it nice. The purpose of this lesson is to teach you how to structure classes that need other classes inside other files.
 
-# require "lex.rb"
-# require "test/unit"
+require "lex.rb"
+require "test/unit"
 
 
 rooms = ["Garden of Life", "Spaceship Expander Port", "Sandbox Sunset", "Endless Forrest"]
