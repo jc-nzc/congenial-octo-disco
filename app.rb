@@ -5,8 +5,9 @@ set :static, true
 set :public_folder, "static"
 set :views, "views"
 
-get '/' do
-    return 'Hello world, hello Donut, hello Ale, hello Jorge'
+get '/howdy/' do
+    greeting = params[:greeting] || "Hi There"
+    erb :howdy, :locals => {'greeting' => greeting}
 end
 
 get '/hello/' do
