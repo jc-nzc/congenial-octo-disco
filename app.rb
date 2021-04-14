@@ -7,7 +7,7 @@ set :views, "views"
 
 get '/howdy/' do
     greeting = params[:greeting] || "Hi There"
-    erb :howdy, :locals => {'greeting' => greeting}
+    erb :index, :locals => {'greeting' => greeting}
 end
 
 get '/hello/' do
